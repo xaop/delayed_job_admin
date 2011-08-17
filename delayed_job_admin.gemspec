@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "delayed_job_admin"
 
-  s.files         = %w[rb erb gemspec lock yml ru html ico].map { |ext| Dir["**/*.#{ext}"] }.flatten + ["Gemfile", "Rakefile", "README", "test/dummy/Rakefile", "test/dummy/script/rails"]]
+  s.files         = %w[rb erb gemspec lock yml ru html ico].map { |ext| Dir["**/*.#{ext}"] }.flatten + ["Gemfile", "Rakefile", "README", "test/dummy/Rakefile", "test/dummy/script/rails"]
   # s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   # s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
