@@ -19,7 +19,7 @@ module DelayedJobAdmin
   end
   
   class << self
-    attr_accessor :header, :footer
+    attr_accessor :header, :footer, :time_zone
   end
   
 end
