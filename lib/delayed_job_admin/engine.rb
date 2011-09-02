@@ -9,4 +9,17 @@ module DelayedJobAdmin
   def self.jquery_url=(url)
     @jquery_url = url
   end
+  
+  def self.layout
+    @layout ||= "delayed_job_admin"
+  end
+  
+  def self.layout=(layout)
+    @layout = layout
+  end
+  
+  class << self
+    attr_accessor :header, :footer
+  end
+  
 end
